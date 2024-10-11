@@ -20,7 +20,7 @@ interface RightSectionProps {
   filters: { brand: string; location: string }; 
 }
 
-const RightSection = ({ selectedBrands, minPrice, maxPrice, filters }: RightSectionProps) => {
+const RightSection = ({ selectedBrands}: RightSectionProps) => {
   const { colorMode } = useColorMode();
   const [hotels, setHotels] = useState<Hotel[]>([]);
 

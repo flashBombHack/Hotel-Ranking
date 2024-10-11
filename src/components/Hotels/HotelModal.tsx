@@ -166,6 +166,7 @@ useEffect(() => {
 
   
     setIsEditingHotel(true);
+    console.log(isEditingHotel);
     setIsAddingHotel(true);
   };
 
