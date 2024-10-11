@@ -1,2 +1,0 @@
-# Hotel-Ranking
-CodyGo Assesment
